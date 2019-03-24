@@ -10,6 +10,19 @@ html {
   scroll-behavior: smooth;
 }
 
+.fadeMe {
+  animation:fadeIn 1s linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0
+  }
+  100% {
+    opacity:1;
+  }
+}
+
 /* BODY KESELURUHAN*/
 body {
   font-family: 'Poppins', serif;
